@@ -20,7 +20,8 @@ class MeasuresFactory extends Factory
             'Temperature' => $this->faker->numberBetween(0, 100),
             'Densite' => $this->faker->numberBetween(0, 100),
             'TauxSucre' => $this->faker->numberBetween(0, 100),
-            'Date' => $this->faker->numberBetween(0, 100)
+            'Date' => $this->faker->numberBetween(0, 100),
+            'Zeub' => $this->faker->numberBetween(0, 100),
         ];
     }
 }
